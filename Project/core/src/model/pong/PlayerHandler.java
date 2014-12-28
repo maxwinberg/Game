@@ -1,5 +1,6 @@
 package model.pong;
 
+import com.badlogic.gdx.Gdx;
 import model.Updateable;
 
 import java.lang.Runnable;

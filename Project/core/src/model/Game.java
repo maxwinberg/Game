@@ -3,24 +3,23 @@ package model;
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.graphics.GL20;
-import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.*;
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import model.pong.Ball;
 import model.pong.BallHandler;
 import model.pong.Player;
 import model.pong.PlayerHandler;
 import view.rendering.Drawable;
-
-import java.awt.event.KeyListener;
 import java.util.ArrayList;
 
 public class Game extends ApplicationAdapter implements ApplicationListener {
 
 	//Texture
 	private SpriteBatch batch;
-	private Texture img;
 	private ArrayList<Drawable> drawables;
+	private BitmapFont font;
 
 	//Update
 	private UpdateHandler updateHandler;
@@ -32,9 +31,9 @@ public class Game extends ApplicationAdapter implements ApplicationListener {
 	@Override
 	public void create () {
 		batch = new SpriteBatch();
-		img = new Texture("badlogic.jpg");
-
-
+		font = new BitmapFont();
+		font.setScale(2, 2);
+		font.setColor(new Color(0,0,0,1));
 		balen = new Ball(100.0f, 100.0f, 5f);
 
 		left = new Player(10, Gdx.graphics.getHeight()/2, 3, "Knug.png");
@@ -54,9 +53,6 @@ public class Game extends ApplicationAdapter implements ApplicationListener {
 		updateables.add(rightHandler);
 
 		updateHandler = new UpdateHandler(updateables, leftHandler, rightHandler);
-
-
-
 	}
 
 	public void reset(){
@@ -69,6 +65,9 @@ public class Game extends ApplicationAdapter implements ApplicationListener {
 		Gdx.gl.glClearColor(1, 1, 1, 1);
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 		batch.begin();
+
+		font.draw(batch, left.getScore() + " : " + right.getScore(), Gdx.graphics.getWidth()/2 -50, Gdx.graphics.getHeight()/2-50);
+
 		synchronized (drawables) {
 			for (int i = 0; i < drawables.size(); i++) {
 				drawables.get(i).draw(batch);
