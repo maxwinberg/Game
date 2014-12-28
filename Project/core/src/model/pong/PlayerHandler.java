@@ -1,5 +1,6 @@
 package model.pong;
 
+import com.badlogic.gdx.Gdx;
 import model.Updateable;
 
 import java.lang.Runnable;
@@ -17,11 +18,17 @@ public class PlayerHandler implements Updateable {
 
 
     public void moveUp(){
-        player.setY(player.getY() + player.getSpeed());
+        if (player.getY() < Gdx.graphics.getHeight() - 135){
+            player.setY(player.getY() + player.getSpeed());
+        }
+
     }
 
     public void moveDown(){
-        player.setY(player.getY() - player.getSpeed());
+        if(player.getY() > 0){
+            player.setY(player.getY() - player.getSpeed());
+        }
+
     }
 
     @Override
