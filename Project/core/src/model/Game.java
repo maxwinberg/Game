@@ -56,8 +56,13 @@ public class Game extends ApplicationAdapter implements ApplicationListener {
 	}
 
 	public void reset(){
-		balen.setY(Gdx.graphics.getHeight()/2);
-		balen.setX(Gdx.graphics.getWidth()/2);
+
+            balen.setY(Gdx.graphics.getHeight()/2);
+            balen.setX(Gdx.graphics.getWidth()/2);
+
+
+
+
 	}
 
 	@Override
