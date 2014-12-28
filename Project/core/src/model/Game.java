@@ -37,7 +37,7 @@ public class Game extends ApplicationAdapter implements ApplicationListener {
 
 		balen = new Ball(100.0f, 100.0f, 5f);
 
-		left = new Player(10, Gdx.graphics.getHeight()/2, 3, "Dexter.png");
+		left = new Player(10, Gdx.graphics.getHeight()/2, 3, "Knug.png");
 		right = new Player(Gdx.graphics.getWidth() - 90, Gdx.graphics.getHeight()/2, 3, "Dexter.png");
 
 		drawables = new ArrayList<Drawable>();
