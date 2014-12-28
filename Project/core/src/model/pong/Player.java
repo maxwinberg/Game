@@ -21,9 +21,9 @@ public class Player implements Drawable, Updateable {
     //Game
     private int score;
 
-    public Player(float x, float y, float speed, String imagePath){
+    public Player(float x, float y, float speed, float height, String imagePath){
         this.speed = speed;
-        rectangle = new Rectangle(x, y, 75, 125);
+        rectangle = new Rectangle(x, y, 75, height);
 
         img = new Texture(imagePath);
     }

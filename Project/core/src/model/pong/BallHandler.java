@@ -26,7 +26,7 @@ public class BallHandler implements Updateable{
     @Override
     public void update() {
 
-        if(ball.getY() <= 0  || ball.getY() >= Gdx.graphics.getHeight()){
+        if(ball.getY() <= 0  || ball.getY() >= Gdx.graphics.getHeight()-20){
             ball.setVelocity(new Vector2(ball.getVelocity().x, (-1)*ball.getVelocity().y));
         }
 
