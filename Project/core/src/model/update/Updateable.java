@@ -1,4 +1,4 @@
-package model;
+package model.update;
 
 /**
  * Created by Max on 2014-12-28.

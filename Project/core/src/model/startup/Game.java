@@ -1,4 +1,4 @@
-package model;
+package model.startup;
 
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.ApplicationListener;
@@ -11,7 +11,9 @@ import model.pong.Ball;
 import model.pong.BallHandler;
 import model.pong.Player;
 import model.pong.PlayerHandler;
-import view.rendering.Drawable;
+import model.update.UpdateHandler;
+import model.update.Updateable;
+import view.render.Drawable;
 import java.util.ArrayList;
 
 public class Game extends ApplicationAdapter implements ApplicationListener {

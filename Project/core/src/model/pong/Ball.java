@@ -1,13 +1,11 @@
 package model.pong;
 
 
-import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector2;
-import model.Updateable;
-import view.rendering.Drawable;
+import view.render.Drawable;
 
 /**
  * Created by Max on 2014-12-28.

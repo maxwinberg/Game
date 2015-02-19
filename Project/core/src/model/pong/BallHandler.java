@@ -1,10 +1,9 @@
 package model.pong;
 
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector2;
-import model.Game;
-import model.Updateable;
+import model.startup.Game;
+import model.update.Updateable;
 
 /**
  * Created by Max on 2014-12-28.

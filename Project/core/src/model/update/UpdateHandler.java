@@ -1,8 +1,9 @@
-package model;
+package model.update;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
 import model.pong.PlayerHandler;
+import model.update.Updateable;
 
 import java.util.ArrayList;
 
@@ -61,7 +62,7 @@ public class UpdateHandler implements Runnable {
 
 
             try{
-                thread.sleep(1);
+                thread.interrupt();
             }catch(Exception e){
 
             }
