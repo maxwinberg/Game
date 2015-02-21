@@ -66,7 +66,6 @@ public class UpdateHandler implements Runnable {
             }catch(Exception e){
 
             }
-           // thread.interrupt();
 
         }
     }
