@@ -62,7 +62,7 @@ public class UpdateHandler implements Runnable {
 
 
             try{
-                thread.interrupt();
+                thread.sleep(1);
             }catch(Exception e){
 
             }
