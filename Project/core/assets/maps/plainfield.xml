@@ -1,0 +1,105 @@
+<Map name="PlainField">
+	<Ground colored="1" color="#ff1100" textured="1">
+		<Textures probability="40">
+			<Texture>
+				<path>"/maps/textures/textur1.png"</path>
+				<Occurencelevel>1-100</Occurencelevel>
+			</Texture>
+			<Texture>
+				<path>"/maps/textures/textur1.png"</path>
+				<Occurencelevel>1-100</Occurencelevel>
+			</Texture>
+			<Texture>
+				<path>"/maps/textures/textur1.png"</path>
+				<Occurencelevel>40</Occurencelevel>
+			</Texture>
+		</Textures>
+	</Ground>
+	<NoneCollidables all="0" probability="">
+
+		<NoneCollidable>
+			<ID>123132</ID>
+			<Occurencelevel>1-100</Occurencelevel>
+		</NoneCollidable>
+		<NoneCollidable>
+			<ID>123132</ID>
+			<Occurencelevel>1-100</Occurencelevel>
+		</NoneCollidable>
+
+	</NoneCollidables>
+
+	<Collidables all="0">
+		<Collidable>
+			<ID>123132</ID>
+			<Occurencelevel>1-100</Occurencelevel>
+		</Collidable>
+	</Collidables>
+
+	<Treasures all="0" probability="">
+			<Treasure>
+				<ID>123132</ID>
+				<Occurencelevel>1-100</Occurencelevel>
+			</Treasure>
+	</Treasures>
+
+	<Enemies all="0" amount="">
+		<Enemie>
+			<ID>123132</ID>
+			<Occurencelevel>1-100</Occurencelevel>
+		</Enemie>
+		<Enemie>
+			<ID>123132</ID>
+			<Occurencelevel>1-100</Occurencelevel>
+		</Enemie>
+	</Enemies>
+
+	<Items all="0" probability="1-100">
+		<Item>
+			<ID>123132</ID>
+			<Occurencelevel>1-100</Occurencelevel>
+		</Item>
+	</Items>
+
+	<Animals all="0" amount="100">
+		<Animals>
+			<ID>123132</ID>
+			<Occurencelevel>1-100</Occurencelevel>
+		</Animals>
+		<Animals>
+			<ID>123132</ID>
+			<Occurencelevel>1-100</Occurencelevel>
+		</Animals>
+	</Animals>
+	<Critters all="0" amount="100">
+		<Critter>
+			<ID>123132</ID>
+			<Occurencelevel>1-100</Occurencelevel>
+		</Critter>
+		<Critter>
+			<ID>123132</ID>
+			<Occurencelevel>1-100</Occurencelevel>
+		</Critter>
+	</Critters>
+
+
+	<Mercenaries all="0" amount="100">
+		<Mercenarie>
+			<ID>123132</ID>
+			<Occurencelevel>1-100</Occurencelevel>
+		</Mercenarie>
+		<Mercenarie>
+			<ID>123132</ID>
+			<Occurencelevel>1-100</Occurencelevel>
+		</Mercenarie>
+	</Mercenaries>
+	<NPCs all="0" amount="100">
+		<NPC>
+			<ID>123132</ID>
+			<Occurencelevel>1-100</Occurencelevel>
+		</NPC>
+		<NPC>
+			<ID>123132</ID>
+			<Occurencelevel>1-100</Occurencelevel>
+		</NPC>
+	</NPCs>
+</Map>
