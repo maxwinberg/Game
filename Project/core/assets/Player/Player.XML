@@ -1,0 +1,118 @@
+<Character name="player">
+	<Health>
+		<HP></HP>
+		<Mana></Mana>
+	</Health>
+
+	<Location>
+		<Coordinates>
+			<x-coordinate>value</x-coordinate>
+			<y-coordinate>value</y-coordinate>	
+		</Coordinates>
+	</Location>
+
+	<Items>
+		<Bags total="4" amount="2">
+			<ID>123123451</ID>
+			<ID>123123</ID>
+			<ID>243234</ID>
+			<ID>234234234</ID>
+		</Bags>
+		<Flasks>
+			<Healingflasks>
+				<ID amount="3">ID</ID>
+				<ID amount="3">ID</ID>
+				<ID amount="3">ID</ID>
+			</Healingflasks>
+			
+			<Manaflasks>
+				<ID amount="3">ID</ID>
+				<ID amount="3">ID</ID>
+				<ID amount="3">ID</ID>
+			</Manaflasks>
+
+			<Other>
+				<ID amount="3">ID</ID>
+				<ID amount="3">ID</ID>
+			</Other>
+		</Flasks>
+		
+		<SpecialItems>
+			<ID amount="1">12312</ID>
+		</SpecialItems>
+
+		<Armors>
+			<Armor>
+				<ID></ID>
+			</Armor>
+		</Armors>
+		<Trinkets>
+			<Trinket>
+				<ID>123123</ID>
+			</Trinket>
+			<Trinket>
+				<ID>1231</ID>
+			</Trinket>
+		</Trinkets>
+
+		<Offhands>
+			<ID>12312</ID>
+		</Offhands>
+
+	</Items>
+	
+	<Pets total="5">
+		<Pet>
+			<Name>Örjan</Name>
+			<Specie>Name</Specie>
+			<EvolveState>1-3</EvolveState>
+		</Pet>
+		<Pet>
+			<Name>Örjan</Name>
+			<Specie>Name</Specie>
+			<EvolveState>1-3</EvolveState>
+		</Pet>
+		<Pet>
+			<Name>Örjan</Name>
+			<Specie>Name</Specie>
+			<EvolveState>1-3</EvolveState>
+		</Pet>
+		<Pet>
+			<Name>Örjan</Name>
+			<Specie>Name</Specie>
+			<EvolveState>1-3</EvolveState>
+		</Pet>
+		<Pet>
+			<Name>Örjan</Name>
+			<Specie>Name</Specie>
+			<EvolveState>1-3</EvolveState>
+		</Pet>
+	</Pets>
+	
+	<Equipment>
+		<Armor>Name</Armor>
+		<Trinkets total="2">
+			<Trinket>
+				<ID>123123</ID>
+			</Trinket>
+			<Trinket>
+				<ID>1231</ID>
+			</Trinket>
+		</Trinkets>
+		<Weapons twohanded="0" onehanded="1" offhand="1">
+			<Weapon>
+				<ID>43534</ID>
+			</Weapon>
+			<Weapon>
+				<ID>1231243</ID>
+			</Weapon>
+			<Offhand>
+				<ID>12312</ID>
+			</Offhand>
+		</Weapons>
+	</Equipment>
+	
+	<Apperance>
+		<HairColor>#ff1100</HairColor>
+		<Gender>male</Gender>
+	</Apperance>
