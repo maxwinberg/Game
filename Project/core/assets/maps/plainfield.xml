@@ -2,16 +2,16 @@
 	<Ground colored="1" color="#ff1100" textured="1">
 		<Textures probability="40">
 			<Texture>
-				<path>"/maps/textures/textur1.png"</path>
-				<Occurencelevel>1-100</Occurencelevel>
+				<ID>123132</ID>
+			<Occurencelevel>1-100</Occurencelevel>
 			</Texture>
 			<Texture>
-				<path>"/maps/textures/textur1.png"</path>
-				<Occurencelevel>1-100</Occurencelevel>
+				<ID>123132</ID>
+			<Occurencelevel>1-100</Occurencelevel>
 			</Texture>
 			<Texture>
-				<path>"/maps/textures/textur1.png"</path>
-				<Occurencelevel>40</Occurencelevel>
+				<ID>123132</ID>
+			<Occurencelevel>1-100</Occurencelevel>
 			</Texture>
 		</Textures>
 	</Ground>
